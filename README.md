@@ -41,7 +41,7 @@ The .json file has the following code:
     "compile:sass": "node-sass sass/main.scss css/styles.css -w";
 }`
 
-So, when you run the `npm run compile:sass command`, you can watch for changes in the code and automatically a single `style.css` file from your Sass code.
+So, when you run the `npm run compile:sass command`, you can watch for changes in the code and automatically generate a single `style.css` file from your Sass code.
 
 To run 'Live-Server', simply type the following command
 
