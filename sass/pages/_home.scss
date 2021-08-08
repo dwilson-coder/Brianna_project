@@ -1,0 +1,126 @@
+// Hero section
+
+.hero {
+  min-height: 90vh;
+  width: 95%;
+  margin: 0 0 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.hero-introduction {
+  flex: 2 1 40rem;
+  text-align: center;
+
+  h2 {
+    padding-top: 3rem;
+  }
+
+  p {
+    padding: 5rem 10rem;
+    color: $grey-text;
+  }
+
+  a {
+    padding: 2rem 8rem;
+  }
+}
+
+.hero-images {
+  flex: 1 1 40rem;
+  background: linear-gradient(#dad8dd, #dad1d4);
+  position: relative;
+  z-index: 1;
+}
+
+.hero-brianna {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.plant {
+  position: absolute;
+  bottom: 0;
+  left: -20%;
+  z-index: -1;
+  transform: translateY(10%) rotateZ(-10deg) rotateX(-90deg);
+  animation: plant-entrance 1.5s ease-in-out forwards, plant-shake 2.5s infinite ease alternate-reverse 2s;
+  transform-origin: bottom;
+  max-height: 80%;
+}
+
+.plant2 {
+  left: 40%;
+}
+// Hero, About, Gallery, and Contact sections media query
+@media screen and (max-width: 842px) {
+  .hero {
+    width: 100%;
+  }
+
+  .hero-introduction p {
+    padding: 5rem 3rem;
+  }
+  // About section media query
+
+  .about-text div {
+    padding: 3rem 8rem;
+  }
+}
+// About section
+
+.about {
+  min-height: 95vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-image {
+  flex: 1 1 40rem;
+  position: relative;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  h5 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    letter-spacing: 2rem;
+  }
+}
+
+.about-text {
+  flex: 2 1 40rem;
+  background: $background-color;
+  color: #fff;
+  justify-content: space-around;
+
+  div {
+    padding: 3rem 8rem;
+  }
+
+  h2 {
+    font-family: "Vibes";
+    padding: 4rem;
+  }
+
+  h3 {
+    padding: 2rem 0;
+    font-family: "Ruhl Medium", sans-serif;
+  }
+}
+// Gallery section is covered in the grid.scss file
+// Contact section
+.contact {
+  min-height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+// Footersection is covered in the footer.scss file

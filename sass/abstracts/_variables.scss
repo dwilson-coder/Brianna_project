@@ -1,0 +1,34 @@
+// Importing fonts
+@font-face {
+  font-family: "Ruhl";
+  src: url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap");
+}
+@font-face {
+  font-family: "Ruhl Medium";
+  src: url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500&display=swap");
+}
+@font-face {
+  font-family: "Vibes";
+  src: url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+}
+// Font sizes
+$header1: calc(2rem + 1vw);
+$header2: calc(3.5rem + 1vw);
+$header3: calc(3rem + 1vw);
+$header4: calc(2.4rem + 1vw);
+$text: calc(1.5rem + 1vw);
+$big: calc(6rem + 1vw);
+$footer-font: calc(1.4rem + 1vw); //  Colors
+$special-color: #906272;
+$grey-text: #525252;
+$background-color: #414141; // Reposnive variable settings
+@media screen and (min-width: 1700px) {
+  html {
+    $header1: 3rem;
+    $header2: 5rem;
+    $header3: 4rem;
+    $header4: 3rem;
+    $big: 8rem;
+    $text: 3rem;
+  }
+}

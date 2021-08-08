@@ -1,0 +1,42 @@
+// Form elements
+
+input,
+label {
+  font-size: $text;
+}
+
+.form-wrapper {
+  flex: 3 1 40rem;
+
+  h2 {
+    margin: 5rem 0;
+  }
+
+  span {
+    font-size: $big;
+    color: $special-color;
+  }
+
+  input,
+  label {
+    display: block;
+  }
+
+  input {
+    margin: 3rem 0;
+    padding: 1rem;
+    background: $background-color;
+    color: #fff;
+    border: none;
+  }
+}
+
+.contact img {
+  flex: 1 1 40rem;
+}
+// Responsive settings
+@media screen and (max-width: 842px) {
+  .contact img {
+    display: none;
+  }
+}

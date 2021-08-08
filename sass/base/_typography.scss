@@ -1,0 +1,51 @@
+// Font variables from local import
+@font-face {
+  font-family: "Ruhl";
+  src: url("../fonts/FrankRuhlLibre-Regular.ttf");
+}
+@font-face {
+  font-family: "Ruhl Medium";
+  src: url("../fonts/FrankRuhlLibre-Medium.ttf");
+}
+@font-face {
+  font-family: "Vibes";
+  src: url("../fonts/GreatVibes-Regular.ttf");
+}
+// General text settings
+
+body {
+  font-family: 'Ruhl', sans-serif;
+}
+
+h1 {
+  font-size: $header1;
+  font-family: "Vibes";
+}
+
+h2 {
+  font-size: $header2;
+}
+
+h3 {
+  font-size: $header3;
+}
+
+h4,
+h5 {
+  font-size: $header4;
+}
+
+ul {
+  list-style: none;
+}
+
+a,
+li,
+p {
+  font-size: $text;
+}
+
+a {
+  text-decoration: none;
+  color: $grey-text;
+}

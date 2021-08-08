@@ -1,0 +1,25 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Brainna Parris Portfolio project
+Version:    1.1
+Last change:    08/06/21
+Assigned to:    Damion 'Coder' Wilson
+Primary use:    CODEBOX LLC
+-------------------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+/*# sourceMappingURL=main.css.map */

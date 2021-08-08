@@ -1,0 +1,19 @@
+// Regular button
+
+button {
+  font-size: $text;
+}
+// Call to action
+
+.cta {
+  border: 3px solid black;
+  margin-bottom: 4rem;
+}
+
+.form-wrapper button {
+  padding: 1rem 8rem;
+  width: 100%;
+  background: $special-color;
+  color: #fff;
+  border: none;
+}
